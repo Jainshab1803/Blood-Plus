@@ -2,7 +2,11 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    /* color: white; */
 
+}
+body{
+    background-color: #F1F1F1;
 }
 .Contact{
     display: flex;
@@ -123,23 +127,236 @@ font-size: 42px;
 font-weight: 700;
 }
 .member-words{
-    margin: 20px 0 0 0;
+    margin: 20px 0;
 }
 .member-words h4{
     text-align: center ;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 500;
-
+    padding-top: 20px;
+    /* padding-bottom: 40px; */
 }
 .feedback-member{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 900px;
-    height: 350px;
+    height: 450px;
     /* border: solid black 2px; */
-    margin: 50px auto 10px auto;
+    margin: 10px auto 10px auto;
+}
+.left-section{
+height: 400px;
 }
 .left-section img{
-height: 450px;
+height: 400px;
+/* margin-top: 400px; */
+}
+.right-section{
+    background-color: white;
+    /* margin-top: 80px; */
+    height: 400px;
+    width: 400px;
+    /* border: solid black 2px; */
+}
+.right-section h5{
+    color: red;
+    font-size: 22px;
+    font-weight: 900;
+padding-top: 40px;
+padding-left: 10px;
+}
+.right-section p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: 400;
+}
+.right-section img{
+    border-radius: 50%;
+    padding: 10px 30px;
+    height: 120px;
+}
+.img-user h6{
+    padding: 10px 10px 0 30px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.img-user p{
+    padding: 5px  0 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.img-user button{
+    margin:10px 0 0 150px ;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: solid black 1px;
+    background-color: rgb(20, 103, 219);
+}
+.img-user button:hover{
+    background-color: black;
+    transition: 0.8s;
+}
+.img-user a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.appointment{
+    margin: 0 auto;
+border: solid black 2px; 
+
+}
+.image-content{
+    display: flex;
+    border: solid rgb(212, 28, 28) 2px;   
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    border: solid black 2px;   
+    max-width: 500px;
+    height: 400px;
+}
+.image h2{
+    padding: 150px 10px 0 10px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+.form-appointment{
+    max-width: 300px;
+    height: 400px;
+    border:  solid blue 2px;
+}
+.heading-appointment{
+    background-color: #4E4E4E;
+}
+.form-appointment h1{
+    color: white;
+    text-align: center;
+    padding:10px 0 10px 10px;
+}
+.inputs{
+    margin: 25px 10px 0 10px;
+}
+.inputs input{
+    text-align: left;
+    font-size: large;
+    margin: 5px;
+    color: black;
+    font-weight: 600;
+}
+.form-appointment button{
+     margin:10px 0 0 120px ;
+    padding: 10px 10px;
+    border-radius: 7px;
+    border: solid black 1px;
+    background-color: rgb(20, 103, 219);
+}
+.form-appointment button:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+.form-appointment button a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+form{
+    background-color: #EAEDF1;
+}
+footer{
+    margin-top: 0;
+    /* margin-bottom: 500px; */
+    /* height: 800px; */
+    background-color: #1A1A1A;
+}
+.little-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 75px;
+    gap: 25px;
+}
+.little-about p{
+    color: white;
+}
+.little-about .nav-logo h1 span{
+    color: white;
+
+}
+.bottom{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.bottom a{
+    color: white;
+    text-decoration: none;
+}
+.about-container{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.help-section{
+    margin-left:100px;
+}
+.help-section ul li{
+    margin: 7px;
+}
+.help-section ul li a{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.email-section :nth-child(1){
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px;
+    /* text-align: left; */
+}
+.email-section:nth-child(2){
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px;
+    /* text-align: left; */
+}
+.email-section input{
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 10px;
+    background-color: #444444;
+}
+.button-subs{
+    margin-top: 10px;
+}
+.button-subs a{
+    text-decoration: none;
+    /* margin-top: 22px; */
+    background-color: #EF3D32;
+    border-radius: 7px;
+    
+    
+
 }
