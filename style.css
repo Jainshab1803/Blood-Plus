@@ -209,12 +209,12 @@ padding-left: 10px;
 }
 .appointment{
     margin: 0 auto;
-border: solid black 2px; 
+/* border: solid black 2px;  */
 
 }
 .image-content{
     display: flex;
-    border: solid rgb(212, 28, 28) 2px;   
+    /* border: solid rgb(212, 28, 28) 2px;    */
     justify-content: center;
     align-items: center;
 }
@@ -232,7 +232,7 @@ border: solid black 2px;
 .form-appointment{
     max-width: 300px;
     height: 400px;
-    border:  solid blue 2px;
+    border:  solid rgb(16, 16, 16) 2px;
 }
 .heading-appointment{
     background-color: #4E4E4E;
@@ -256,7 +256,7 @@ border: solid black 2px;
      margin:10px 0 0 120px ;
     padding: 10px 10px;
     border-radius: 7px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background-color: rgb(20, 103, 219);
 }
 .form-appointment button:hover{
@@ -273,7 +273,7 @@ form{
     background-color: #EAEDF1;
 }
 footer{
-    margin-top: 0;
+    margin-top: 25px;
     /* margin-bottom: 500px; */
     /* height: 800px; */
     background-color: #1A1A1A;
